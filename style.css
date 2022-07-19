@@ -175,32 +175,34 @@
  @media screen and (max-width: 768px) {
      .two-div {
          flex-direction: column;
+         margin-top: 10px;
+         justify-content: center;
+        
      }
 
-     .left {
+     .left { 
          width: 30%;
      }
 
      .left h1 {
+       
          font-size: 1.5rem;
          margin-bottom: 0px;
      }
-     /* .left p {
-        white-space: nowrap; 
-        width: 50px; 
-        overflow: hidden;
-        text-overflow: ellipsis; 
-        border: 1px solid #000000;
-     } */
+     .two-div p {
+       width: 100px;
+       height: 100px;
+       margin-bottom: 5px;
+     }
      
 
      .right {
-         width: 50%;
+         width: 30%;
      }
 
      .right img {
-        margin-top: 10px;
-         width: 100%;
+         width: 80%;
+         margin-bottom: 10px;
      }
 
      button {
@@ -217,7 +219,7 @@
 
      .left-blog {
         background-color: #ffffff;
-        width: 70%;
+        width: 90%;
         margin: 1%;
        
      }
