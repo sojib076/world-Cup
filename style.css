@@ -111,14 +111,14 @@
  .right-blog {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
-     width: 60%;
+     width: 80%;
         gap: 20px;
      
 
  }
 
  .box {
-     width: 90%;
+     width: 100%;
      padding: 10px;
      box-shadow: 10px 0px 10px #ccc;
  }
@@ -167,7 +167,7 @@
  }
 
  .right-footer P {
-     margin: 20px;
+     margin: 10px;
  }
 
 
@@ -217,7 +217,7 @@
 
      .left-blog {
         background-color: #ffffff;
-        width: 90%;
+        width: 70%;
         margin: 1%;
        
      }
@@ -226,10 +226,10 @@
          grid-template-columns: repeat(1, 1fr);
          margin-top: 10px;
          
-            
+            width: 100%;
      }
      .box {
-            width:90%;
+            width:100%;
            
      }
      .box img{
