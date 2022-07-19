@@ -185,21 +185,21 @@
          font-size: 1.5rem;
          margin-bottom: 0px;
      }
-     .left p {
+     /* .left p {
         white-space: nowrap; 
         width: 50px; 
         overflow: hidden;
         text-overflow: ellipsis; 
         border: 1px solid #000000;
-     }
+     } */
      
 
      .right {
-         width: 35%;
+         width: 50%;
      }
 
      .right img {
-        position:  sticky;
+        margin-top: 10px;
          width: 100%;
      }
 
