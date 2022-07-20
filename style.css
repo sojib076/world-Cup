@@ -81,9 +81,7 @@ a{
 margin-top: 0px;
 }
 
-.left p {
-    margin-top: 5px;
-}
+
 
 .right {
     width: 40%;
@@ -377,10 +375,8 @@ margin-top: 0px;
        margin-left: 10px;
        margin-bottom: 5px;
        }
-       .left p {
-           margin-top: 0px;
-           margin-left: 100px;
-       }
+       
+      
    .left-blog {
        background-color: #ffffff;
        display: flex;
