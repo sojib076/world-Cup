@@ -92,6 +92,10 @@ margin-top: 0px;
 }
 
 /* HEADER STYLE END */
+
+
+
+/* BLOG START  */
 .blog{
     display: flex;
     margin: 80px;
@@ -162,8 +166,9 @@ margin-top: 0px;
     display: flex;
     justify-content: space-evenly;
 }
+/* BLOG END */
 
-
+ /* FOOTER START */
 
 .footer {
     background-color: #000000;
@@ -203,6 +208,8 @@ margin-top: 0px;
 .fa-brands{
    margin: 10px;
 }
+
+/* FOOTER END */
 
    /* 
    MATCH STYLE START 
