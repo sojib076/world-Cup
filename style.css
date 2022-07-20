@@ -54,8 +54,7 @@
  }
 
  .left h1 {
-     font-size: 2rem;
-     margin-bottom: 0px;
+ margin-top: 0px;
  }
 
  .left p {
@@ -66,7 +65,10 @@
      width: 30%;
 
  }
-
+ .right img {
+     width: 95%;
+    
+ }
 
  /* HEADER STYLE END */
  .blog {
@@ -170,13 +172,13 @@
      margin: 10px;
  }
 
+/* Moblie Media */
 
-
- @media screen and (max-width: 768px) {
+ @media only screen and (max-width:688px){
      .two-div {
          flex-direction: column;
          margin-top: 10px;
-         justify-content: center;
+       
         
      }
 
@@ -185,15 +187,19 @@
      }
 
      .left h1 {
-       
+       margin-top: 20px;
          font-size: 1.5rem;
          margin-bottom: 0px;
      }
-     .two-div p {
-       width: 100px;
-       height: 100px;
-       margin-bottom: 5px;
+     .min{
+        
+        width: 80%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        overflow: hidden;
      }
+    
      
 
      .right {
@@ -201,19 +207,20 @@
      }
 
      .right img {
-         width: 80%;
+         width: 100%;
          margin-bottom: 10px;
+         margin-top: 10%;
      }
 
      button {
          padding: 10px;
          font-size: 8px;
+        
      }
 
      .blog {
          flex-direction: column;
          align-items: center;
-        
          
      }
 
@@ -227,8 +234,7 @@
      .right-blog {
          grid-template-columns: repeat(1, 1fr);
          margin-top: 10px;
-         
-            width: 100%;
+         width: 100%;
      }
      .box {
             width:100%;
@@ -252,3 +258,49 @@
         margin: 8px;
      }
  }
+  /* moblie media end  */
+
+
+  /* Tablet Device View  */
+  @media only screen and (min-width:689px) and (max-width:992px) {
+    .blog {
+        flex-direction: column;
+        
+       
+    }
+    .left-blog {
+        background-color: #ffffff;
+      
+        display: flex;
+        justify-items: center;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 20%;
+      
+     }
+
+     .right-blog {
+         grid-template-columns: repeat(2, 1fr);
+         margin-top: 10px;
+         width: 100%;
+         
+     }
+     .nowblog{
+        width: 90%;
+         height: 30px;
+         padding: 10px;
+         text-align: center;
+        
+      
+     }
+     .box {
+        width: 90%;
+        padding: 10px;
+        box-shadow: 20px 0px 10px #ccc;
+    }
+   
+    .box img {
+        width: 100%;
+        
+    }
+  }
