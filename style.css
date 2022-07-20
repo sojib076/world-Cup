@@ -277,10 +277,12 @@ margin-top: 0px;
        width: 150px;
        white-space: nowrap;
        overflow: hidden;
-       text-overflow: ellipsis;
-       overflow: hidden;
+    
     }
-   
+   .short-text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+   }
     
 
     .right {
@@ -353,6 +355,7 @@ margin-top: 0px;
     }
     .social{
        font-size: 25px;
+      
        
     }
     .name,.time{
