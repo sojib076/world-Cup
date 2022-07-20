@@ -56,8 +56,6 @@ a{
 
 
 
-
-
 /* HEADER STYLE START */
 
 .two-div {
@@ -118,8 +116,6 @@ margin-top: 0px;
     border-radius: 20px;
     text-align: center;
     padding: 20px;
-
-
 
 }
 
@@ -208,8 +204,9 @@ margin-top: 0px;
    margin: 10px;
 }
 
-
-   /* MATCH STYLE START  */
+   /* 
+   MATCH STYLE START 
+   */
 
 .box-match{
    width: 80%;
@@ -245,7 +242,9 @@ margin-top: 0px;
 /* MATCH STYLE END  */
 
 
-/* Moblie Media START */
+/* --------
+Moblie Media START
+--------*/
 
 @media only screen and (max-width:688px){
     .two-div {
