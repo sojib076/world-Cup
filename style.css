@@ -228,11 +228,18 @@ a{
  
  .name,.time{
     text-align: center;
- } 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+   
+}
+ 
+
  #view-more{
      margin-left: 70%;
     margin-top: 10px;
     display: none;
+    margin-bottom: 100px;
     
  }
 
@@ -408,22 +415,20 @@ a{
         box-shadow: 20px 0px 10px #ccc;
         margin-left: 3%;
     }
-    .name {
+    .name,.time{
+       
         margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 5px;
-    }
-    .time{
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 5px;
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 20px;
+       
     }
     #view-more{
         display: block;
         background-color: rgb(243, 16, 16);
         border: none;
-        border-radius: 4px;
         font-size: 15px;
+        width: 50%;
        
     }
   
