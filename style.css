@@ -213,11 +213,12 @@ a{
     /* MATCH STYLE START  */
 
  .box-match{
-    width: 100%;
+    width: 80%;
     display: flex;
     margin: 2%;
    align-items: center;
    justify-content: center;
+   padding: 10%;
    
  }
 
