@@ -38,7 +38,7 @@
 
  .two-div {
      display: flex;
-     height: 100%;
+     height: 90%;
      align-items: center;
      justify-content: center;
      background-color: #161616;
@@ -50,7 +50,7 @@
  .left {
      width: 50%;
      color: white;
-
+    
  }
 
  .left h1 {
@@ -62,11 +62,12 @@
  }
 
  .right {
-     width: 30%;
-
+     width: 40%;
+    margin-left: 5%;
  }
  .right img {
-     width: 95%;
+     width: 60%;
+     
     
  }
 
@@ -84,6 +85,7 @@
      background-color: #161616;
      margin-right: 20px;
      border-radius: 20px;
+     
      
  }
 
@@ -145,8 +147,8 @@
 
 
  .footer {
-     background-color: #161616;
-     color: white;
+     background-color: #8d79d4;
+     color: rgb(255, 254, 254);
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -154,6 +156,16 @@
      height: 300px;
      justify-items: center;
 
+ }
+ .social{
+    font-size: 30px;
+    
+ }
+ .social a{
+        text-decoration: none;
+ }
+ .fa-brands{
+    margin: 10px;
  }
 
  .left-footer {
@@ -178,7 +190,9 @@
      .two-div {
          flex-direction: column;
          margin-top: 10px;
-         padding: 10px;
+         padding: 20px;
+         height: 100%;
+        
         
      }
      .fa-greater-than {
@@ -197,7 +211,7 @@
      }
      .min{
         
-        width: 80%;
+        width: 150px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -207,18 +221,23 @@
      
 
      .right {
-         width: 40%;
+         width: 30%; 
+         margin-bottom: 0px;
+         margin-left: 0px;
      }
 
      .right img {
          width: 100%;
          margin-top: 10px;
-         margin-top: 10%;
+         margin-bottom: -24px;
+        
+         
      }
 
      button {
         padding: 6px;
-         font-size: 6px;  
+         font-size: 6px; 
+         
      }
 
      .blog {
@@ -231,6 +250,7 @@
         background-color: #ffffff;
         width: 90%;
         margin: 1%;
+        margin-bottom: 15px;
        
      }
 
@@ -261,12 +281,19 @@
      .right-footer P{
         margin: 8px;
      }
+     .social{
+        font-size: 10px;
+        
+     }
+     .name,.time{
+        text-align: center;
+     }
     }
 
 
    /* MATCH STYLE START  */
  
- /* MATCH STYLE END  */
+
  .box-match{
     display: flex;
     padding: 10%;
@@ -278,7 +305,17 @@
     margin: 10px;
  }
  
+ .name,.time{
+    text-align: center;
+ } 
+ #view-more{
+     margin-left: 60%;
+    margin-top: 10px;
+    display: none;
+    
+ }
 
+ /* MATCH STYLE END  */
 
   /* moblie media end  */
 
@@ -290,6 +327,14 @@
         
        
     }
+    .left h1 {
+        margin-left: 10px;
+        margin-bottom: 5px;
+        }
+        .left p {
+            margin-top: 0px;
+            margin-left: 100px;
+        }
     .left-blog {
         background-color: #ffffff;
       
@@ -300,9 +345,12 @@
         height: 20%;
       
      }
+    
+
      button {
         padding: 10px;
          font-size: 8px;  
+         margin-left: 20px;
      }
 
      .right-blog {
@@ -324,6 +372,8 @@
         padding: 10px;
         box-shadow: 20px 0px 10px #ccc;
     }
-   
+    #view-more{
+        display: block;
+    }
   
 }
